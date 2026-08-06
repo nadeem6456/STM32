@@ -1,21 +1,21 @@
-19:58:25 **** Incremental Build of configuration Debug for project project1 ****
+12:02:45 **** Incremental Build of configuration Debug for project Peri clock enable ****
 make -j16 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "project1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/nadeem/STM32CubeIDE/workspace_2.2.0/project1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="project1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: project1.elf
- 
-arm-none-eabi-size  project1.elf 
-arm-none-eabi-objdump -h -S project1.elf  > "project1.list"
+arm-none-eabi-size  Peri\ clock\ enable.elf 
    text	   data	    bss	    dec	    hex	filename
-   6224	    164	   1900	   8288	   2060	project1.elf
+    696	      0	   1568	   2264	    8d8	Peri clock enable.elf
 Finished building: default.size.stdout
  
-Finished building: project1.list
- 
-16:33:11 **** Incremental Build of configuration Debug for project project1 ****
+12:03:02 **** Incremental Build of configuration Debug for project Peri clock enable ****
 make -j16 all 
-arm-none-eabi-size  project1.elf 
+arm-none-eabi-size  Peri\ clock\ enable.elf 
    text	   data	    bss	    dec	    hex	filename
-   6224	    164	   1900	   8288	   2060	project1.elf
+    696	      0	   1568	   2264	    8d8	Peri clock enable.elf
+Finished building: default.size.stdout
+ 
+12:05:12 **** Incremental Build of configuration Debug for project Peri clock enable ****
+make -j16 all 
+arm-none-eabi-size  Peri\ clock\ enable.elf 
+   text	   data	    bss	    dec	    hex	filename
+    696	      0	   1568	   2264	    8d8	Peri clock enable.elf
 Finished building: default.size.stdout
  

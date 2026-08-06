@@ -1,0 +1,10 @@
+12:05:12 **** Incremental Build of configuration Debug for project Peri clock enable ****
+make -j16 all 
+arm-none-eabi-size  Peri\ clock\ enable.elf 
+   text	   data	    bss	    dec	    hex	filename
+    696	      0	   1568	   2264	    8d8	Peri clock enable.elf
+Finished building: default.size.stdout
+ 
+
+12:05:12 Build Finished. 0 errors, 0 warnings. (took 70ms)
+
