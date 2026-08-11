@@ -32,7 +32,7 @@ int main(void)
 
 	//2. Wait until HSE clock from the external crystal stabilizes (only if crystal is connected )
 	while( ! (*pRccCrReg & ( 1 << 17) ) );
-//stabilisation is over here
+
 	//3. Switch the system clock to HSE (RCC_CFGR)
 	*pRccCfgrReg |= ( 1 << 0);
 
