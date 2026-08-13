@@ -1,5 +1,21 @@
-2026-08-11 17:41:36,313 [INFO] Activator:177 - 
+2026-08-13 09:50:47,091 [INFO] Activator:177 - 
 
 
-2026-08-11 17:41:36,316 [INFO] Activator:178 - !SESSION log4j initialized
-2026-08-11 17:41:54,528 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-08-13 09:50:47,095 [INFO] Activator:178 - !SESSION log4j initialized
+2026-08-13 09:51:05,810 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-08-13 11:09:10,464 [INFO] Activator:177 - 
+
+
+2026-08-13 11:09:10,466 [INFO] Activator:178 - !SESSION log4j initialized
+2026-08-13 11:09:13,044 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-08-13 11:09:35,389 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.2123420685 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,391 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.775904500 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,392 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.600777066 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,392 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.2078233683 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.2047429317 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.331328736 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.1196580536 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.400690320 uses a null category that is invalid in its context. The option was ignored.
+2026-08-13 11:09:35,478 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2026-08-13 11:09:35,478 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2026-08-13 11:09:35,478 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

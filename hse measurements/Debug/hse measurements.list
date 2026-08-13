@@ -114,7 +114,7 @@ int main(void)
  80001e8:	f403 3300 	and.w	r3, r3, #131072	@ 0x20000
  80001ec:	2b00      	cmp	r3, #0
  80001ee:	d0f9      	beq.n	80001e4 <main+0x1c>
-
+//stabilisation is over here
 	//3. Switch the system clock to HSE (RCC_CFGR)
 	*pRccCfgrReg |= ( 1 << 0);
  80001f0:	693b      	ldr	r3, [r7, #16]
