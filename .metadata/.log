@@ -3686,3 +3686,27 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-21 23:32:39.983
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-08-21 23:45:37.511 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-21 23:45:40.220
+!MESSAGE Log4j2 initialized with config file /home/nadeem/STM32CubeIDE/workspace_2.2.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-21 23:45:43.755
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-08-21 23:46:42.782 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-21 23:46:45.470
+!MESSAGE Log4j2 initialized with config file /home/nadeem/STM32CubeIDE/workspace_2.2.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-21 23:46:48.793
+!MESSAGE Started RMI Server, listening on port 41337

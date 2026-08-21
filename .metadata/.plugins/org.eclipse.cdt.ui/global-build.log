@@ -1,28 +1,14 @@
-10:18:24 **** Build of configuration Debug for project hse measurements ****
+23:46:33 **** Build of configuration Debug for project clock code implication ****
 make -j16 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "hse measurements.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/nadeem/STM32CubeIDE/workspace_2.2.0/hse measurements/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hse measurements.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: hse measurements.elf
+arm-none-eabi-gcc -o "clock code implication.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/nadeem/STM32CubeIDE/workspace_2.2.0/clock code implication/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="clock code implication.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: clock code implication.elf
  
-arm-none-eabi-size  hse\ measurements.elf 
-arm-none-eabi-objdump -h -S hse\ measurements.elf  > "hse measurements.list"
+arm-none-eabi-size  clock\ code\ implication.elf 
+arm-none-eabi-objdump -h -S clock\ code\ implication.elf  > "clock code implication.list"
    text	   data	    bss	    dec	    hex	filename
-    816	      0	   1568	   2384	    950	hse measurements.elf
+    772	      0	   1568	   2340	    924	clock code implication.elf
 Finished building: default.size.stdout
  
-Finished building: hse measurements.list
- 
-10:18:34 **** Incremental Build of configuration Debug for project hse measurements ****
-make -j16 all 
-arm-none-eabi-size  hse\ measurements.elf 
-   text	   data	    bss	    dec	    hex	filename
-    816	      0	   1568	   2384	    950	hse measurements.elf
-Finished building: default.size.stdout
- 
-10:22:54 **** Incremental Build of configuration Debug for project hse measurements ****
-make -j16 all 
-arm-none-eabi-size  hse\ measurements.elf 
-   text	   data	    bss	    dec	    hex	filename
-    816	      0	   1568	   2384	    950	hse measurements.elf
-Finished building: default.size.stdout
+Finished building: clock code implication.list
  

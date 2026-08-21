@@ -1,0 +1,27 @@
+23:46:27 **** Build of configuration Debug for project volatile_experiment ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32.d" -MT"startup/startup_stm32.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+arm-none-eabi-gcc "../startup/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F4 -DSTM32F407VGTx -DSTM32F407G_DISC1 -DDEBUG -c -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"startup/sysmem.d" -MT"startup/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/sysmem.o"
+../startup/sysmem.c:62:1: error: unknown type name 'caddr_t'
+   62 | caddr_t _sbrk(int incr)
+      | ^~~~~~~
+../startup/sysmem.c: In function '_sbrk':
+../startup/sysmem.c:75:25: error: 'caddr_t' undeclared (first use in this function)
+   75 |                 return (caddr_t) -1;
+      |                         ^~~~~~~
+../startup/sysmem.c:75:25: note: each undeclared identifier is reported only once for each function it appears in
+../startup/sysmem.c:80:25: error: expected ';' before 'prev_heap_end'
+   80 |         return (caddr_t) prev_heap_end;
+      |                         ^~~~~~~~~~~~~~
+      |                         ;
+../startup/sysmem.c:66:15: warning: variable 'prev_heap_end' set but not used [-Wunused-but-set-variable]
+   66 |         char *prev_heap_end;
+      |               ^~~~~~~~~~~~~
+../startup/sysmem.c:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+   81 | }
+      | ^
+make: *** [startup/subdir.mk:28: startup/sysmem.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:46:27 Build Failed. 4 errors, 2 warnings. (took 117ms)
+
