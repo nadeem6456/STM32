@@ -6,7 +6,6 @@
   * @brief   Default main function.
   ******************************************************************************
 */
-//clock code implemantation
 
 #include<stdint.h>
 
