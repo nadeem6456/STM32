@@ -27,6 +27,4 @@ int main(void)
     /* Loop forever */
 	/*adreessoffset
 	for(;;);
-
-/*gpio pins are general purpose input output pins
 }
