@@ -29,7 +29,4 @@ int main(void)
 	for(;;)
 	/* Loop forever */
 /*gpio pins are general purpose input output pins
- */
-	/*gpio
- */
 }
