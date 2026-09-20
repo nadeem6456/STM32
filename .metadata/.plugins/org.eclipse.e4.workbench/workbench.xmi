@@ -171,15 +171,8 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
           <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.svg</tags>
-          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
-          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
-          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
-          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <tags>persp.perspSC:org.eclipse.cdt.ui.CPerspective</tags>
           <tags>persp.actionSet:com.st.stm32cube.ide.mcu.debug.dsf.oss.ui.debugActionSet</tags>
           <tags>persp.viewSC:org.eclipse.terminal.view.ui.TerminalsView</tags>
@@ -204,6 +197,13 @@
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.faultanalyzer.view</tags>
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.cyclomaticcomplexity.view</tags>
           <tags>persp.viewSC:com.st.stm32cube.ide.mcu.sfrview</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.svg</tags>
+          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
+          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
+          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
+          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_7oUM0bTFEfGPbMTo483hYA" selectedElement="_7oUz5bTFEfGPbMTo483hYA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_7oUM0rTFEfGPbMTo483hYA" containerData="2500" selectedElement="_7oUz4LTFEfGPbMTo483hYA" horizontal="true">
               <children xsi:type="basic:PartStack" xmi:id="_7oUz4LTFEfGPbMTo483hYA" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_7oUz4bTFEfGPbMTo483hYA">
@@ -838,7 +838,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3iSKaLnEfGBIe27Zekrxg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XPZvgLTEEfGPbMTo483hYA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_n3nKH6LnEfGBIe27Zekrxg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sGMtULTGEfGDOICadvTpLQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_n3nKH6LnEfGBIe27Zekrxg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3iSOaLnEfGBIe27Zekrxg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -846,8 +846,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3iSO6LnEfGBIe27Zekrxg" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XPa9oLTEEfGPbMTo483hYA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_n3nKDaLnEfGBIe27Zekrxg"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XPbksLTEEfGPbMTo483hYA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_n3nKs6LnEfGBIe27Zekrxg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sGOigLTGEfGDOICadvTpLQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" enabled="false" command="_n3nKDaLnEfGBIe27Zekrxg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sGPJkLTGEfGDOICadvTpLQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_n3nKs6LnEfGBIe27Zekrxg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3iSQ6LnEfGBIe27Zekrxg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -871,7 +871,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3i4paLnEfGBIe27Zekrxg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_XPcy0LTEEfGPbMTo483hYA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" enabled="false" type="Check" command="_n3mjfKLnEfGBIe27Zekrxg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sGQXsLTGEfGDOICadvTpLQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" enabled="false" type="Check" command="_n3mjfKLnEfGBIe27Zekrxg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_n3i4s6LnEfGBIe27Zekrxg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
