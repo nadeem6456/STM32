@@ -25,6 +25,7 @@ Topics explored include:
 - ARM Cortex-M concepts
 - STM32 development using STM32CubeIDE
 - Debugging and hardware experiments
+- Small project building
 
 ---
 
