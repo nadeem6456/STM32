@@ -1,0 +1,16 @@
+# STM32CubeIDE / Eclipse workspace
+.metadata/
+*.log
+*.snap
+
+# Build output
+Debug/
+Release/
+build/
+
+# STM32 generated files
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
