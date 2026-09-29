@@ -26,7 +26,7 @@ Topics explored include:
 - STM32 development using STM32CubeIDE
 - Debugging and hardware experiments
 - Small project building
-
+- Writing my own HAL code
 ---
 
 ## 📂 Repository Structure
@@ -49,6 +49,27 @@ STM32/
 ├── clock code implication/
 │   └── Clock-related implementations
 │
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ├── code implication/
 │   └── Register-level code implementations
 │
