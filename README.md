@@ -49,27 +49,6 @@ STM32/
 ├── clock code implication/
 │   └── Clock-related implementations
 │
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ├── code implication/
 │   └── Register-level code implementations
 │
