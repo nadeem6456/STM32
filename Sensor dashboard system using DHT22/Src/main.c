@@ -26,4 +26,6 @@ int main(void)
 {
     /* Loop forever */
 	for(;;);
+
+	//sensor dashboard system using stm32
 }
