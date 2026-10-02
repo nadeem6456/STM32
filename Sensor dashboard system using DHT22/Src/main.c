@@ -28,4 +28,5 @@ int main(void)
 	for(;;);
 
 	//sensor dashboard system using stm32
+	//This uses a DHT22 Temprature sensor to calculate the values and then display them on spi based oled display
 }
