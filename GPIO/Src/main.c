@@ -30,6 +30,6 @@ int main(void)
 	/* Loop forever */
 /*gpio pins are general purpose input output pins
  */
-	/*gpio
+	/*stm32f407g has 40 gpio pins
  */
 }
