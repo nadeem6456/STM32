@@ -31,5 +31,7 @@ int main(void)
 /*gpio pins are general purpose input output pins
  */
 	/*stm32f407g has 40 gpio pins
+	 *
+	 * this is just testing
  */
 }
