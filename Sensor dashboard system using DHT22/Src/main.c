@@ -29,4 +29,5 @@ int main(void)
 
 	//sensor dashboard system using stm32
 	//This uses a DHT22 Temprature sensor to calculate the values and then display them on spi based oled display
+	//This project uses own writeen HAL code without the use of any library
 }
