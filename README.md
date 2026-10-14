@@ -27,7 +27,7 @@ Topics explored include:
 - Debugging and hardware experiments
 - Small project building
 - Writing my own HAL code
----
+-A small temperature display device using dht22
 
 ## 📂 Repository Structure
 
