@@ -59,7 +59,8 @@ STM32/
 │   └── Experiments related to volatile and memory-mapped registers
 │
 ├── project1/
-│   └── STM32 project experiments
+│   └── STM32 project experiments ex: Temprature dashboard using dht22
+
 │
 └── Resources/
     └── Datasheets, reference material and learning resources
